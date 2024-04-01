@@ -5,14 +5,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class TemporaryPassword extends StatefulWidget {
-  const TemporaryPassword({super.key});
+class Temporarypasswordscreen extends StatefulWidget {
+  const Temporarypasswordscreen({super.key});
 
   @override
-  State<TemporaryPassword> createState() => _TemporaryPasswordState();
+  State<Temporarypasswordscreen> createState() =>
+      _TemporarypasswordscreenState();
 }
 
-class _TemporaryPasswordState extends State<TemporaryPassword> {
+class _TemporarypasswordscreenState extends State<Temporarypasswordscreen> {
   FocusNode _focusNode = FocusNode();
   @override
   Widget build(BuildContext context) {
@@ -58,7 +59,7 @@ class _TemporaryPasswordState extends State<TemporaryPassword> {
               ),
               CustomButtonWisget(
                   ontap: () {
-                    Get.offAll(CreateNewPassword());
+                    Get.offAll(Createnewpasswordscreen());
                   },
                   tittle: 'Create new password',
                   isActive: true),

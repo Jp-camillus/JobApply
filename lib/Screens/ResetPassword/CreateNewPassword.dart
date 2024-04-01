@@ -5,12 +5,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:password_field_validator/password_field_validator.dart';
 
-class CreateNewPassword extends StatefulWidget {
+class Createnewpasswordscreen extends StatefulWidget {
   @override
-  _CreateNewPasswordState createState() => _CreateNewPasswordState();
+  _CreatenewpasswordscreenState createState() =>
+      _CreatenewpasswordscreenState();
 }
 
-class _CreateNewPasswordState extends State<CreateNewPassword> {
+class _CreatenewpasswordscreenState extends State<Createnewpasswordscreen> {
   FocusNode focusNode = FocusNode();
   FocusNode focusNoode = FocusNode();
   DialogController dialogController = DialogController();

@@ -5,8 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
-class ConfirmPin extends StatelessWidget {
-  const ConfirmPin({super.key});
+class Confirmpinscreen extends StatelessWidget {
+  const Confirmpinscreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class ConfirmPin extends StatelessWidget {
           height: 1.sh,
           child: DialPad(
               OnbuttonTap: () {
-                Get.to(Dashboard());
+                Get.to(Dashboardscreen());
               },
               AppBarTittle: 'Confirm Pin',
               AppBarSubTittle: 'Confirm your access '),

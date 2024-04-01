@@ -6,12 +6,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
-class cashWithdrawal extends StatefulWidget {
+class Cashwithdrawalscreen extends StatefulWidget {
   @override
-  _cashWithdrawalState createState() => _cashWithdrawalState();
+  _CashwithdrawalscreenState createState() => _CashwithdrawalscreenState();
 }
 
-class _cashWithdrawalState extends State<cashWithdrawal> {
+class _CashwithdrawalscreenState extends State<Cashwithdrawalscreen> {
   TextEditingController _searchController = TextEditingController();
   String _searchText = '';
   List<Map<String, String>> _items = [
@@ -44,7 +44,7 @@ class _cashWithdrawalState extends State<cashWithdrawal> {
       appBar: AppBar(
         leading: GestureDetector(
             onTap: () {
-              Get.offAll(Dashboard());
+              Get.offAll(Dashboardscreen());
             },
             child: Image(image: AssetImage(AppImages.cancel))),
         centerTitle: true,
@@ -105,7 +105,7 @@ class _cashWithdrawalState extends State<cashWithdrawal> {
                   return ListTile(
                     contentPadding: EdgeInsets.all(0),
                     onTap: () {
-                      Get.to(UserProfile());
+                      Get.to(Userprofilescreen());
                     },
                     title: Text(_filteredItems[index]['title']!),
                     subtitle: Text(_filteredItems[index]['subtitle']!),

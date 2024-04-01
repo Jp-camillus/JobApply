@@ -40,12 +40,12 @@ class MyApp extends StatelessWidget {
           builder: (context, child) {
             return GetMaterialApp(
               debugShowCheckedModeBanner: false,
-              title: 'Global Pay',
+              title: 'field app',
               theme: ThemeData(
                 colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
                 useMaterial3: true,
               ),
-              home: cashWithdrawal(),
+              home: Cashwithdrawalscreen(),
             );
           }),
     );

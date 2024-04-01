@@ -98,7 +98,7 @@ class _UserAccountState extends State<UserAccount> {
                         children: [
                           GestureDetector(
                             onTap: () {
-                              Get.to(DepositCash());
+                              Get.to(Depositcashscreen());
                             },
                             child: Card(
                               elevation: 20,

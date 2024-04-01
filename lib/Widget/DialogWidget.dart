@@ -85,7 +85,7 @@ class DialogController {
                       ),
                       GestureDetector(
                         onTap: () {
-                          Get.to(Dashboard());
+                          Get.to(Dashboardscreen());
                         },
                         child: Card(
                           elevation: 20,
@@ -202,7 +202,7 @@ class DialogController {
                       ),
                       GestureDetector(
                         onTap: () {
-                          Get.offAll(TemporaryPassword());
+                          Get.offAll(Temporarypasswordscreen());
                         },
                         child: Card(
                           elevation: 20,
@@ -372,7 +372,7 @@ void ConfirmdepositDialog(
                         ),
                         GestureDetector(
                           onTap: () {
-                            Get.to(InputPin());
+                            Get.to(Inputpinscreen());
                           },
                           child: Card(
                             elevation: 20,
@@ -558,7 +558,7 @@ void ConfirmWithdrawalDialog(BuildContext context, String Amount,
                         ),
                         GestureDetector(
                           onTap: () {
-                            Get.to(CashWithdrawalInputPin());
+                            Get.to(CashwithdrawalinputPinscreen());
                           },
                           child: Card(
                             elevation: 20,

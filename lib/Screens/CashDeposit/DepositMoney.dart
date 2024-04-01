@@ -6,12 +6,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
-class DepositMoney extends StatefulWidget {
+class Depositmoneyscreen extends StatefulWidget {
   @override
-  _DepositMoneyState createState() => _DepositMoneyState();
+  _DepositmoneyscreenState createState() => _DepositmoneyscreenState();
 }
 
-class _DepositMoneyState extends State<DepositMoney> {
+class _DepositmoneyscreenState extends State<Depositmoneyscreen> {
   TextEditingController _searchController = TextEditingController();
   String _searchText = '';
   List<Map<String, String>> _items = [
@@ -44,7 +44,7 @@ class _DepositMoneyState extends State<DepositMoney> {
       appBar: AppBar(
         leading: GestureDetector(
           onTap: () {
-            Get.offAll(Dashboard());
+            Get.offAll(Dashboardscreen());
           },
           child: Image(
             image: AssetImage(AppImages.cancel),
@@ -108,7 +108,7 @@ class _DepositMoneyState extends State<DepositMoney> {
                   return ListTile(
                     contentPadding: EdgeInsets.all(0),
                     onTap: () {
-                      Get.to(UserProfile());
+                      Get.to(Userprofilescreen());
                     },
                     title: Text(_filteredItems[index]['title']!),
                     subtitle: Text(_filteredItems[index]['subtitle']!),

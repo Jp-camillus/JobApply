@@ -6,8 +6,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
-class InputPin extends StatelessWidget {
-  const InputPin({super.key});
+class Inputpinscreen extends StatelessWidget {
+  const Inputpinscreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class InputPin extends StatelessWidget {
           height: h.toDouble(),
           width: w.toDouble(),
           child: DialPad2(OnbuttonTap: () {
-            Get.to(Successful());
+            Get.to(successfulscreen());
           }),
         ),
       ),

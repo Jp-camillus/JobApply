@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class DepositCash extends StatelessWidget {
-  const DepositCash({super.key});
+class Depositcashscreen extends StatelessWidget {
+  const Depositcashscreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -4,14 +4,14 @@ import 'package:fieldapp/Widget/textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class ResetPassword extends StatefulWidget {
-  const ResetPassword({super.key});
+class Resetpasswordscreen extends StatefulWidget {
+  const Resetpasswordscreen({super.key});
 
   @override
-  State<ResetPassword> createState() => _ResetPasswordState();
+  State<Resetpasswordscreen> createState() => _ResetpasswordscreenState();
 }
 
-class _ResetPasswordState extends State<ResetPassword> {
+class _ResetpasswordscreenState extends State<Resetpasswordscreen> {
   DialogController dialogcontroller = DialogController();
 
   @override

@@ -3,8 +3,8 @@ import 'package:fieldapp/Constants/colors.dart';
 import 'package:fieldapp/Widget/Receipt.dart';
 import 'package:flutter/material.dart';
 
-class AwaitingAprroval extends StatelessWidget {
-  const AwaitingAprroval({super.key});
+class Awaitingaprrovalscreen extends StatelessWidget {
+  const Awaitingaprrovalscreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -7,9 +7,9 @@ import 'package:gap/gap.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
-class CashWithdrawalInputPin extends StatelessWidget {
+class CashwithdrawalinputPinscreen extends StatelessWidget {
   final Function()? bottomfunction;
-  CashWithdrawalInputPin({
+  CashwithdrawalinputPinscreen({
     Key? key,
     this.bottomfunction,
     this.OnbuttonTap,
@@ -46,7 +46,7 @@ class CashWithdrawalInputPin extends StatelessWidget {
                   isActive: true,
                   tittle: 'Submit',
                   ontap: () {
-                    Get.to(CashWithdrawalAwaitingAprroval());
+                    Get.to(CashwithdrawalawaitingAprrovalscreen());
                   },
                 ),
               ),

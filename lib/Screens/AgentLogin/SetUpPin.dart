@@ -5,8 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
-class SetupPin extends StatelessWidget {
-  const SetupPin({super.key});
+class Setuppinscreen extends StatelessWidget {
+  const Setuppinscreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class SetupPin extends StatelessWidget {
           height: 1.sh,
           child: DialPad(
               OnbuttonTap: () {
-                Get.to(ConfirmPin());
+                Get.to(Confirmpinscreen());
               },
               AppBarTittle: 'Setup Pin',
               AppBarSubTittle: 'Setup pin to access field app'),

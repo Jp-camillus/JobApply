@@ -411,7 +411,7 @@ class CashWithdrawalReciept extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () {
-                  Get.offAll(UserProfile());
+                  Get.offAll(Userprofilescreen());
                 },
                 child: Container(
                   child: Row(

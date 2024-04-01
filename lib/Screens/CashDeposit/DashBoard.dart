@@ -9,8 +9,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
-class Dashboard extends StatelessWidget {
-  const Dashboard({super.key});
+class Dashboardscreen extends StatelessWidget {
+  const Dashboardscreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +52,7 @@ class Dashboard extends StatelessWidget {
                     children: [
                       GestureDetector(
                         onTap: () {
-                          Get.to(DepositMoney());
+                          Get.to(Depositmoneyscreen());
                         },
                         child: FieldAgentCard(
                           color: colors.Cashdeposit,
@@ -67,7 +67,7 @@ class Dashboard extends StatelessWidget {
                     children: [
                       GestureDetector(
                         onTap: () {
-                          Get.to(cashWithdrawal());
+                          Get.to(Cashwithdrawalscreen());
                         },
                         child: FieldAgentCard(
                           color: colors.Cashwithdrawal,
@@ -92,7 +92,7 @@ class Dashboard extends StatelessWidget {
                     children: [
                       GestureDetector(
                         onTap: () {
-                          Get.to(UserProfile());
+                          Get.to(Userprofilescreen());
                         },
                         child: FieldAgentCard(
                           color: colors.UserProfile,

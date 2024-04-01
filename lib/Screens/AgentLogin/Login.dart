@@ -7,14 +7,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
-class Login extends StatefulWidget {
-  const Login({super.key});
+class Loginscreen extends StatefulWidget {
+  const Loginscreen({super.key});
 
   @override
-  State<Login> createState() => _LoginState();
+  State<Loginscreen> createState() => _LoginscreenState();
 }
 
-class _LoginState extends State<Login> {
+class _LoginscreenState extends State<Loginscreen> {
   final _formKey = GlobalKey<FormState>();
   final TextEditingController _usernameController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
@@ -111,6 +111,6 @@ class _LoginState extends State<Login> {
   }
 
   void _login() {
-    Get.to(ResetPassword());
+    Get.to(Resetpasswordscreen());
   }
 }
